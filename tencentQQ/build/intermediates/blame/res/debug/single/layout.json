@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\project\\as_project\\CustomViewSample\\tencentQQ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\project\\as_project\\CustomViewSample\\tencentQQ\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\project\\as_project\\CustomViewSample\\tencentQQ\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_swipe.xml",
+        "source": "E:\\project\\as_project\\CustomViewSample\\tencentQQ\\src\\main\\res\\layout\\list_item_swipe.xml"
+    },
+    {
+        "merged": "E:\\project\\as_project\\CustomViewSample\\tencentQQ\\build\\intermediates\\res\\merged\\debug\\layout\\activity_layout_right.xml",
+        "source": "E:\\project\\as_project\\CustomViewSample\\tencentQQ\\src\\main\\res\\layout\\activity_layout_right.xml"
+    }
+]

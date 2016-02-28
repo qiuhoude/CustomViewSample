@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\project\\as_project\\CustomViewSample\\tencentQQ\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\red_bg.9.png",
+        "source": "E:\\project\\as_project\\CustomViewSample\\tencentQQ\\src\\main\\res\\drawable-xhdpi\\red_bg.9.png"
+    },
+    {
+        "merged": "E:\\project\\as_project\\CustomViewSample\\tencentQQ\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\shadow.9.png",
+        "source": "E:\\project\\as_project\\CustomViewSample\\tencentQQ\\src\\main\\res\\drawable-xhdpi\\shadow.9.png"
+    },
+    {
+        "merged": "E:\\project\\as_project\\CustomViewSample\\tencentQQ\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "E:\\project\\as_project\\CustomViewSample\\tencentQQ\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    }
+]
