@@ -9,4 +9,16 @@
         <attr name="metaButtonBarButtonStyle" format="reference" />
     </declare-styleable>
 
+
+    <attr name="item_count" format="integer"></attr>
+
+    <declare-styleable name="TabPageIndicator">
+        <attr name="item_count" />
+    </declare-styleable>
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="allowWidthFull" format="boolean" />
+        <attr name="slidingBlock" format="reference" />
+        <attr name="disableViewPager" format="boolean" />
+    </declare-styleable>
 </resources>

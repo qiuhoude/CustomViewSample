@@ -1,6 +1,7 @@
 package houde.sample.utils;
 
 import android.content.Context;
+import android.util.DisplayMetrics;
 import android.view.WindowManager;
 
 /**
@@ -10,6 +11,15 @@ public class ScreemUtils {
 
     public static int getScreemHeight(Context context) {
         WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
-        return wm.getDefaultDisplay().getHeight();
+        DisplayMetrics outMetrics = new DisplayMetrics();
+        wm.getDefaultDisplay().getMetrics(outMetrics);
+        return outMetrics.heightPixels;
+    }
+
+    public static int getScreemWidth(Context context) {
+        WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+        DisplayMetrics outMetrics = new DisplayMetrics();
+        wm.getDefaultDisplay().getMetrics(outMetrics);
+        return outMetrics.widthPixels;
     }
 }

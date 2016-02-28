@@ -19,8 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".acitvity.ListViewAcitvity"></activity>
-        <activity android:name=".acitvity.DragViewGroupActivity"></activity>
+        <activity android:name=".acitvity.ListViewAcitvity" />
+        <activity android:name=".acitvity.DragViewGroupActivity" />
+        <activity android:name=".acitvity.TabIndicatorActivty" />
+        <activity android:name=".acitvity.StickyNavActivity"></activity>
     </application>
 
 </manifest>

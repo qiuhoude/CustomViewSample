@@ -51,7 +51,6 @@ public class Utils {
 			return 0;
 		}
 		Rect frame = new Rect();
-
 		v.getWindowVisibleDisplayFrame(frame);
 		return frame.top;
 	}
