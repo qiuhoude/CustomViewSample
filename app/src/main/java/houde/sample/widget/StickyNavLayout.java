@@ -22,7 +22,8 @@ import android.widget.ScrollView;
 import houde.sample.R;
 
 /**
- * Created by Administrator on 2016/2/28.
+ *
+ * VelocityTracker的用法说明 http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2012/1114/558.html
  */
 public class StickyNavLayout extends LinearLayout {
     private View mTop;
@@ -57,10 +58,10 @@ public class StickyNavLayout extends LinearLayout {
 
         mScroller = new OverScroller(context);
         mVelocityTracker = VelocityTracker.obtain();
-        mTouchSlop = ViewConfiguration.get(context).getScaledTouchSlop();
-        mMaximumVelocity = ViewConfiguration.get(context)
+        mTouchSlop = ViewConfiguration.get(context).getScaledTouchSlop();//获得能够进行手势滑动的距离
+        mMaximumVelocity = ViewConfiguration.get(context) //获得允许执行一个fling手势动作的最大速度值
                 .getScaledMaximumFlingVelocity();
-        mMinimumVelocity = ViewConfiguration.get(context)
+        mMinimumVelocity = ViewConfiguration.get(context)//获得允许执行一个fling手势动作的最小速度值
                 .getScaledMinimumFlingVelocity();
 
     }
@@ -294,6 +295,7 @@ public class StickyNavLayout extends LinearLayout {
 
     public void fling(int velocityY) {
         mScroller.fling(0, getScrollY(), 0, velocityY, 0, 0, 0, mTopViewHeight);
+//        awakenScrollBars(mScroller.getDuration())//当参数startDelay为0时动画将立刻开始，其实就是一个延迟的作用
         invalidate();
     }
 
