@@ -35,6 +35,7 @@ public class TabListFragment extends Fragment {
         if (getArguments() != null) {
             mTitle = getArguments().getString(TITLE);
         }
+
     }
 
     @Override

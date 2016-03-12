@@ -23,7 +23,7 @@ import houde.sample.R;
 
 /**
  *
- * VelocityTracker的用法说明 http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2012/1114/558.html
+ * VelocityTracker的用法   说明 http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2012/1114/558.html
  */
 public class StickyNavLayout extends LinearLayout {
     private View mTop;
@@ -212,6 +212,7 @@ public class StickyNavLayout extends LinearLayout {
                 recycleVelocityTracker();
                 break;
         }
+
         return super.onInterceptTouchEvent(ev);
     }
 
@@ -259,7 +260,6 @@ public class StickyNavLayout extends LinearLayout {
                 }
                 if (mDragging) {
                     scrollBy(0, (int) -dy);
-
                     // 如果topView隐藏，且上滑动时，则改变当前事件为ACTION_DOWN
                     if (getScrollY() == mTopViewHeight && dy < 0) {
                         event.setAction(MotionEvent.ACTION_DOWN);
